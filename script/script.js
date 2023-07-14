@@ -33,10 +33,11 @@ const teamMember = [{
     img: "./img/barbara-ramos-graphic-designer.jpg"
 }];
 
+// stampa di ogni array
 for (const key in teamMember) {
     console.log(teamMember[key]);
 }
-
+// creazione delle card per ogni membro nell array
 memberCard()
 
 function memberCard() {
