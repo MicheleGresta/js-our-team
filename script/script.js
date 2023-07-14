@@ -45,6 +45,7 @@ function memberCard() {
 
         const newMemberCard = document.createElement("div");
         newMemberCard.classList.add("card-width");
+        newMemberCard.classList.add("card");
         newMemberCard.innerHTML = (
             '<img src="' + teamMember[i].img + '" class="card-img-top" alt="";>'
             + '<h5 class="card-title">' + teamMember[i].nome + '</h5>'
